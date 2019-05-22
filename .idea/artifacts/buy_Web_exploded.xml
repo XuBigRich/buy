@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="buy:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/buy_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="buy/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="buy" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
